@@ -21,6 +21,23 @@
       <label for="quantity">Quantity:</label>
       <input type="number" id="quantity" min="1" value="1">
       <button id="add-drink">Add Drink</button>
+      <button id="compute-results">Compute Results</button>
+    </div>
+    <div id="drink-log">
+      <h2>Drink Log</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Drink Type</th>
+            <th>Quantity</th>
+            <th>Alcohol (g)</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="drink-log-body">
+          <!-- Drink entries will be added here -->
+        </tbody>
+      </table>
     </div>
     <div id="results">
       <h2>Session Summary</h2>

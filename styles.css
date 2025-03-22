@@ -14,7 +14,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
+  max-width: 600px;
   width: 100%;
 }
 
@@ -72,6 +72,22 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+#drink-log table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#drink-log th, #drink-log td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+#drink-log th {
+  background-color: #f4f4f4;
 }
 
 #results {
