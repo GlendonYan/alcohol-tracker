@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alcohol Intake Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Alcohol Intake Tracker</h1>
+    <div id="calendar"></div>
+    <div id="drink-form">
+      <h2>Log Your Drinks</h2>
+      <label for="drink-type">Drink Type:</label>
+      <select id="drink-type">
+        <option value="beer">Beer (5%)</option>
+        <option value="wine">Wine (12%)</option>
+        <option value="spirit">Spirit (40%)</option>
+      </select>
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" min="1" value="1">
+      <button id="add-drink">Add Drink</button>
+    </div>
+    <div id="results">
+      <h2>Session Summary</h2>
+      <p>Total Alcohol Intake: <span id="total-alcohol">0</span> units</p>
+      <p>Wait Time: <span id="wait-time">0</span> hours</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
