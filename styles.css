@@ -41,6 +41,11 @@ h1, h2 {
   color: white;
 }
 
+#calendar div.wait {
+  background-color: #ffcccb;
+  color: black;
+}
+
 #drink-form {
   margin-bottom: 20px;
 }
