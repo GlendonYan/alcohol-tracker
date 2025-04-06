@@ -3,7 +3,7 @@ const ALCOHOL_PER_UNIT = 8; // 1 unit = 8g of pure alcohol
 const METABOLISM_RATE = 0.015; // Alcohol metabolized per hour (grams per hour)
 const HOURS_PER_DAY = 24; // Hours in a day
 
-// Drink types and their alcohol content (in %)
+// Drink and their alcohol content. possibly change to allow dad to input the percentage.
 const DRINKS = {
   beer: 5,
   wine: 12,
